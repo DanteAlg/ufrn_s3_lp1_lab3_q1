@@ -16,9 +16,11 @@ Não se esqueça de:
 
 IMPORTANTE:
 * Não permita incluir na lista produtos com o mesmo código
-* Confesso que apenas reproduzi a sobrecarga do operador de inserção na classe Produto, mas não sei bem o que fiz. O que eu realmente não entendi foi como, mesmo eu não tendo sobrecarregado o operador de inserção na classe Fruta, ainda consigo imprimir os dados de um objeto desta classe usando este operador! Que loucura! Por isso, preciso que você explique isso em um ou dois parágrafos para eu enviar ao professor. 
+* Confesso que apenas reproduzi a sobrecarga do operador de inserção na classe Produto, mas não sei bem o que fiz. O que eu realmente não entendi foi como, mesmo eu não tendo sobrecarregado o operador de inserção na classe Fruta, ainda consigo imprimir os dados de um objeto desta classe usando este operador! Que loucura! Por isso, preciso que você explique isso em um ou dois parágrafos para eu enviar ao professor.
+* Outra parte que eu fiz, mas não sei bem a razão, foi declarar o método destrutor da classe Produto como virtual. Advinha?! Eu também preciso explicar isso ao professor. Conto com sua ajuda!
 
 Fico te devendo mais esta!
 
 Tenho que ir.
+
 Teobaldo
