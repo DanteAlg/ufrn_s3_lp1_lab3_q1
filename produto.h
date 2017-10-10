@@ -27,5 +27,5 @@ public:
 private:
 	virtual std::ostream& print(std::ostream&) const = 0;
 };
-
+ 
 #endif
