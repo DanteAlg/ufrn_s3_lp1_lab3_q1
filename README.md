@@ -14,7 +14,7 @@ Não se esqueça de:
 * Criar um makefile apropiado
 * Alterar o main para testar toda a implementação
 
-Obs:
+IMPORTANTE:
 * Não permita incluir na lista produtos com o mesmo código
 * Confesso que apenas reproduzi a sobrecarga do operador de inserção na classe Produto, mas não sei bem o que fiz. O que eu realmente não entendi foi como, mesmo eu não tendo sobrecarregado o operador de inserção na classe Fruta, ainda consigo imprimir os dados de um objeto desta classe usando este operador! Que loucura! Por isso, preciso que você explique isso em um ou dois parágrafos para eu enviar ao professor. 
 
