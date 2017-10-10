@@ -8,7 +8,7 @@ class Produto
 public:
 	Produto();
 	Produto(std::string _codigo, std::string _descricao, short _preco);
-	~Produto();
+	virtual ~Produto();
 protected:
 	std::string m_cod_barras;
 	std::string m_descricao;
