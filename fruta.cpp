@@ -28,7 +28,7 @@ void
 Fruta::setValidade(short _validade) {
 	m_validade = _validade;
 }
-
+ 
 std::ostream& 
 Fruta::print(std::ostream &o) const {
 	o << std::setfill (' ') << std::setw (10) << m_cod_barras << " | " 
