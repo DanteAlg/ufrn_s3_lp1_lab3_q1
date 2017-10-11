@@ -36,4 +36,5 @@ Fruta::print(std::ostream &o) const {
 		<< std::setfill (' ') << std::setw (5) << m_preco << " | "
 		<< std::setfill (' ') << std::setw (10) << m_data_lote << " | " 
 		<< std::setfill (' ') << std::setw (3) << m_validade;
+	return o;
 }
