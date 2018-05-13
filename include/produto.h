@@ -23,9 +23,9 @@ public:
 	void setDescricao(std::string _descricao);
 	void setPreco(double _preco);
 	//
-	friend std::ostream& operator<< (std::ostream &o, Produto const &t);  
+	friend std::ostream& operator<< (std::ostream &o, Produto const &t);
 private:
 	virtual std::ostream& print(std::ostream&) const = 0;
 };
- 
+
 #endif
