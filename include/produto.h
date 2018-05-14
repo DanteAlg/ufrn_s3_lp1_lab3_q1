@@ -24,6 +24,9 @@ public:
 	void setPreco(double _preco);
 	//
 	friend std::ostream& operator<< (std::ostream &o, Produto const &t);
+	friend double operator- (Produto &p, Produto &p2);
+	friend double operator+ (Produto &p, Produto &p2);
+	friend bool operator== (Produto &p, Produto &p2);
 private:
 	virtual std::ostream& print(std::ostream&) const = 0;
 };

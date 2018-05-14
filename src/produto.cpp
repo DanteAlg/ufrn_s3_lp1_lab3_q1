@@ -41,3 +41,15 @@ Produto::setPreco(double _preco) {
 std::ostream& operator<< (std::ostream &o, Produto const &p) {
 	return p.print(o);
 }
+
+double operator+ (Produto &p, Produto &p2) {
+	return (p.getPreco() + p2.getPreco());
+}
+
+double operator- (Produto &p, Produto &p2) {
+	return (p.getPreco() - p2.getPreco());
+}
+
+bool operator== (Produto &p, Produto &p2) {
+	return (p.getCodBarras().compare(p2.getCodBarras()) == 0);
+}
