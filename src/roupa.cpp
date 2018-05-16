@@ -4,7 +4,7 @@
 Roupa::Roupa() {}
 
 Roupa::Roupa(std::string _codigo, std::string _descricao, short _preco, 
-                std::string _marca, char _sexo, char _tamanho):
+                std::string _marca, std::string _sexo, std::string _tamanho):
             	Produto(_codigo, _descricao, _preco), m_marca(_marca), m_sexo(_sexo), m_tamanho(_tamanho) {}
 
 Roupa::~Roupa() {};
@@ -13,11 +13,11 @@ std::string Roupa::getMarca() {
 	return m_marca;
 }
 
-char Roupa::getSexo() {
+std::string Roupa::getSexo() {
 	return m_sexo;
 }
 
-char Roupa::getTamanho() {
+std::string Roupa::getTamanho() {
 	return m_tamanho;
 }
 
@@ -25,11 +25,11 @@ void Roupa::setMarca(std::string _marca) {
 	m_marca = _marca;
 }
 
-void Roupa::setSexo(char _sexo) {
+void Roupa::setSexo(std::string _sexo) {
 	m_sexo = _sexo;
 }
 
-void Roupa::setTamanho(char _tamanho) {
+void Roupa::setTamanho(std::string _tamanho) {
 	m_tamanho = _tamanho;
 }
 
