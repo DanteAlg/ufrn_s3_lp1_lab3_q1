@@ -52,11 +52,13 @@ void Mercado::abrir() {
 		}
 	}
 
-	// Produto com erro, mesmo codigo de uma fruta
+	// Produto com erro, mesmo codigo de uma fruta que tem no .dat
 	adicionarProduto(std::make_shared<Fruta>("001002003-24", "Maca importada", 9.0, "01/10/2017", 18));
 	
 	// testes
 	listarProdutos();
+	somarProdutos();
+	subtrairProdutos();
 }
 
 void Mercado::adicionarProduto(const std::shared_ptr<Produto> &p) {
@@ -86,5 +88,4 @@ void Mercado::somarProdutos() {
 void Mercado::subtrairProdutos() {
 	// Subtrair 8.7 - 4.75 = 3.95
 	std::cout << "Subtrair valor da Laranja na Maca verde: " << *produtos[0] - *produtos[1] << std::endl;
-
 }
